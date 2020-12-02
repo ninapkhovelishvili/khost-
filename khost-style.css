@@ -910,6 +910,8 @@
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 70px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .hosting-support-text{
@@ -931,6 +933,7 @@
 .support-info{
 	text-decoration: none;
 	color: #c0ccd6;
+	padding-top: 15px;
 }
 
 .support-info i{
@@ -954,3 +957,63 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
+/*data-center-location-section*/
+
+.data-center-location-section{
+	width: 100%;
+	height: 940px;
+	padding-top: 110px;
+	background-color: #fafafa;
+}
+
+.data-center-location-items{
+	width: 100%;
+	height: 740px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+}
+
+.data-center-location-text{
+	width: 730px;
+	height: 178px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 48px;
+	color: #24374e
+
+}
+
+.data-center-location-text >h2{
+	font-size: 36px;
+	padding-bottom: 20px;
+}
+
+.data-center-location-text >p{
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.7;
+}
+
+.data-center-location-map{
+	width: 100%;
+	height: 562px;
+}
+
+.map-img{
+	width: 1110px;
+	height: 562px;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+/*feedback-section*/
