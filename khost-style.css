@@ -988,7 +988,7 @@
 	align-items: center;
 	text-align: center;
 	margin-bottom: 48px;
-	color: #24374e
+	color: #24374e;
 
 }
 
@@ -1017,3 +1017,131 @@
 }
 
 /*feedback-section*/
+
+.feedback-section{
+	width: 100%;
+}
+
+.feedback-section-items{
+	width: 100%;
+	height: 642px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.feedback-section-text{
+	width: 645px;
+	height: 115px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	color: #24374e;
+}
+
+.feedback-section-text >h2{
+	font-size: 36px;
+	padding-bottom: 20px;
+}
+
+.feedback-section-text >p{
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+
+.feedback-section-slider{
+	width: 100%;
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	padding-top: 30px;
+}
+
+
+.first-feedback-slider{
+	width: 100%;
+	height: 310px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.feedback-section-card{
+	width: 348px;
+	height: 278px;
+	border-radius: 20px;
+	border: 1px solid lightgray;
+	margin-right: 30px;
+}
+
+.second-feedback-slider{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.third-feedback-slider{
+	width: 100%;
+	height: 310px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.feedback-section-dots{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.first-slider-dot{
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	border: 1px solid gray;
+	background-color: #f67a3c;
+	margin-right: 15px;
+	transition: 0.5s;
+}
+
+.second-slider-dot{
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	border: 1px solid gray;
+	background-color: lightgray;
+	margin-right: 15px;
+	transition: 0.5s;
+}
+
+.third-slider-dot{
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	border: 1px solid gray;
+	background-color: lightgray;
+	margin-right: 15px;
+	transition: 0.5s;
+}
+
+.second-slider-dot:hover{
+	background-color: #f67a3c;
+}
+
+.second-slider-dot:hover .first-feedback-slider{
+	display: none;
+}
+
+
+
